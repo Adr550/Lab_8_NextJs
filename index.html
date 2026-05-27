@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Luis Adrian Estrada</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <h1 class="brand">Luis Adrian Estrada</h1>
+        <nav class="nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="inicio" class="section">
+        <h2>Hola, soy Luis Adrian Estrada</h2>
+        <p class="lead">
+          Soy estudiante de desarrollo web y estoy creando un portafolio para
+          mostrar mis proyectos.
+        </p>
+        <p>
+          <strong>Carrera:</strong> Ciencias de la computación
+        </p>
+        <p>
+          <strong>Tecnologías:</strong> HTML, CSS, JavaScript
+        </p>
+        <div class="row">
+          <a class="button" href="https://github.com/Adr550" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a class="button button--ghost" href="https://linkedin.com/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section">
+        <h2>Sobre mí</h2>
+        <p>
+          Aprendí a crear páginas web usando tecnologías básicas y estoy
+          mejorando mi forma de desarrollar.
+        </p>
+        <ul class="list">
+          <li><strong>Intereses:</strong> backend y UI.</li>
+          <li><strong>Favoritas:</strong> JavaScript y CSS.</li>
+          <li><strong>Quiero aprender:</strong> Next.js, React y Laravel.</li>
+        </ul>
+      </section>
+
+      <section id="proyectos" class="section">
+        <h2>Proyectos</h2>
+        <p class="muted">Algunos trabajos realizados durante el curso.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Choose Your Own Adventure</h3>
+            <p class="muted">
+              Este trabajo consiste en un Choose Your Own Adventure, utilizando HTML, el juego consiste en escapar de la casa antes de que un vistante inesperado te encuentre. Este proyecto es interactivo utilizanod colores y fuentes distintos para evocar ese sentido de peligro inminente
+            </p>
+            <p><strong>Tecnologías:</strong> HTML</p>
+            <div class="row wrap">
+              <a class="link" href="https://github.com/Adr550/CYOA_Luis_Estrada" target="_blank" rel="noreferrer">
+                Repositorio
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Luis Adrian Estrada</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

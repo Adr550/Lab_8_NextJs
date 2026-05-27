@@ -1,6 +1,13 @@
 # Portafolio - Lab 8 Next.js
 
-Portafolio personal de Luis Adrian Estrada.
+Portafolio personal de **Luis Adrian Estrada**.
+
+## Entrega
+
+| | URL |
+|---|---|
+| **Sitio en vivo (Vercel)** | https://lab-8-next-js.vercel.app |
+| **Repositorio** | https://github.com/Adr550/Lab_8_NextJs |
 
 ## Proyectos incluidos
 
@@ -15,4 +22,4 @@ npm run dev
 npm run build
 ```
 
-Abre [http://localhost:3000](http://localhost:3000) en desarrollo.
+Desarrollo local: [http://localhost:3000](http://localhost:3000)
